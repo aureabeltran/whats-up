@@ -1,7 +1,11 @@
-/**/
+/*HEADER*/
+.chat-panel {
+	background-image: url(../image/chat-panel-bg.png);
+}
+
 .lab-logo-academy {
-	width: 50px;
-	height: 50px;
+	width: 40px;
+	height: 40px;
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
@@ -10,11 +14,25 @@
 .icon-attachment {
 	width: 100px;
 	height: 100px;
+	color: #9E9E9E;
+	font-size: 20px;
 }
 
 .icon-dots-three-vertical {
 	width: 100px;
 	height: 100px;
+	color: #9E9E9E;
+	font-size: 20px;
+}
+
+.icon-insert_emoticon {
+	color: #9E9E9E;
+	font-size: 24px;
+}
+
+.icon-mic {
+	color: #9E9E9E;
+	font-size: 24px;
 }
 
 /*CUADROS DE CONVERSACIÓN*/
