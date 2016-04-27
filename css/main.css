@@ -1,1 +1,15 @@
 /*Inserta tu css aqui*/
+img{
+	max-width: 100%;
+}
+i{
+	font-size: 50px;
+	color: #5C5C5C;
+}
+.perfil{
+	width: 100px;
+	height: 100px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}
