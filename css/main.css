@@ -1,6 +1,41 @@
 /*estilos primera mitad*/
-section{
+.bg-green{
+	background-color: #009683;
+	max-height: 200px;
+	height:100%;
+	padding-top: 10%;
+}
+body{
 	background-color: #C5C5C5;
+}
+section{
+	margin: 0% 3% 0% 3%;
+	background-color: #C5C5C5;
+	margin-top: -50px;
+	border: 1px solid black;
+}
+.cabecera{
+	height: 50px;
+	padding-top: 5px; 
+	border-right: 1px solid black;
+}
+.cabecera i{
+	float: right;
+	margin: 5px 8px 0px 0px;
+}
+.busqueda{
+	background-color: white;
+	height: 50px;
+	padding: 5px;
+}
+.busqueda input{
+	height: 40px;
+	color: #9E9E9E;
+	width: 95%;
+}
+.busqueda i{
+	margin-left: -30px;
+	color: #9E9E9E;
 }
 section h4{
 	color: #9E9E9E;
@@ -13,10 +48,18 @@ section p{
 .mensajes{
 	border-top:  1px solid #909090;
 	border-bottom:  1px solid #909090;
+	padding: 0px 5px 0px 5px;
+}
+.mensajes:hover{
+	border: 2px solid black;
 }
 section img{
 	max-width: 100%;
 	margin-right: 5%;
+}
+.mensajes h6{
+	float: right;
+	color: #9E9E9E;
 }
 i{
 	font-size: 30px;
