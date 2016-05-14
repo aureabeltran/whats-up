@@ -1,8 +1,23 @@
-/*HEADER*/
-.chat-panel {
-	background-image: url(../image/chat-panel-bg.png);
+* {
+	font-family: Helvetica;
 }
 
+.chat-panel {
+	background-image: url(../image/chat-panel-bg.png);
+	background-size: cover;
+}
+
+/*HEADER*/
+.info {
+	background-color: #E3DDDD;
+	padding: 12px;
+}
+.clip {
+	float: right;
+}
+.puntos {
+	float: right;
+}
 .lab-logo-academy {
 	width: 40px;
 	height: 40px;
@@ -34,9 +49,47 @@
 	color: #9E9E9E;
 	font-size: 24px;
 }
+/*FIN*/
 
 /*CUADROS DE CONVERSACIÓN*/
+.background-green {
+	width: 120px;
+	height: 55px;
+	background-color: #D2EEAD;
+	border-radius: 5%;
+}
 
-.f {
+.background-green time {
+	margin-left: 10px;
+}
 
+.background-gray {
+	width: 350px;
+	height: 80px;
+	background-color: #F7EDF3;
+	border-radius: 5%;
+}
+
+
+.time p {
+	float: right;
+}
+
+/*SECCION RESPUESTA*/
+.icon-mic {
+	margin-left: 10px;	
+
+}
+
+.icon-insert_emoticon {
+	margin-right: 10px;
+}
+
+.footer {
+	background-color: #E3DDDD;
+	padding: 12px;
+}
+
+input {
+	width: 500px;
 }
