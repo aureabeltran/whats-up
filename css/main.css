@@ -1,1 +1,190 @@
-/*Inserta tu css aqui*/
+
+/*estilos primera mitad*/
+
+* {
+	font-family: Helvetica;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+i{
+	color: #9E9E9E;
+	font-size: 30px;
+}
+
+.bg-green{
+	background-color: #009683;
+	max-height: 200px;
+	height:400%;
+	padding-top: 10%;
+}
+
+body{
+	background-color: #D6D6D6;
+}
+
+section{
+	margin: 0% 4% 0% 5%;
+	background-color: #D6D6D6;
+	margin-top: -50px;
+	border: 1px solid black;
+}
+section h4{
+	color: #9E9E9E;
+	display: inline-block;
+}
+
+section p{
+	color: #9E9E9E;
+	font-size: 13px;
+}
+.col-md-4{
+	padding: 0% ;
+}
+.cabecera{
+	height: 50px;
+	padding: 5px 0px 0px 5px; 
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+}
+.iconos-menu{
+	float: right;
+}
+
+.busqueda{
+	background-color: white;
+	padding: 5px;
+}
+
+.busqueda input{
+	height: 40px;
+	color: #9E9E9E;
+	width: 90%;
+}
+
+.busqueda i{
+	margin-left: -30px;
+}
+
+.mensajes{
+	border-top: 1px solid black;
+	padding: 0px 4px 0px 4px;
+}
+
+.mensajes:hover{
+	border: 2px solid black;
+}
+
+.mensajes img{
+	max-width: 100%;
+	margin-right: 5%;
+}
+
+.mensajes h6{
+	float: right;
+	color: #9E9E9E;
+}
+
+.perfil{
+	width: 40px;
+	height: 40px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}
+section .contactos{
+	background-color: white;
+	border: 1px solid #909090; 
+}
+
+/*pame*/
+.col-md-8{
+	padding: 0%;
+}
+.info {
+	background-color: #E3DDDD;
+	padding: 12px;
+}
+.clip {
+	float: right;
+}
+.puntos {
+	float: right;
+}
+.Laboratoria-Peru{
+	padding: 4px;
+	border-bottom: 1px solid black;
+}
+.Laboratoria-Peru i{
+	margin-top: -40px;
+	padding: 6px;
+}
+.chat-panel {
+	background-image: url(../image/chat-panel-bg.png);
+	background-size: cover;
+	padding:2% 2% 0% 2%;
+}
+
+.icon-insert_emoticon {
+	color: #9E9E9E;
+	font-size: 24px;
+}
+
+.icon-mic {
+	color: #9E9E9E;
+	font-size: 24px;
+}
+/*FIN*/
+
+/*CUADROS DE CONVERSACIÓN*/
+.background-green {
+	background-color: #D2EEAD;
+	max-width: 40%;
+	border: 1px solid #C1C1C1;
+	padding: 4px;
+}
+.background-green h6{
+	float: right;
+	color: #9E9E9E;
+}
+.background-green time {
+	margin-left: 10px;
+}
+.respuestas{
+	width:100%;
+	margin-left: 60%;
+}
+
+.background-gray {
+	background-color: white;
+	max-width: 55%;
+	border: 1px solid #C1C1C1;
+	padding: 2px;
+}
+.background-gray h6{
+	float: right;
+	color: #9E9E9E;
+}
+
+
+.time p {
+	float: right;
+}
+
+/*SECCION RESPUESTA*/
+
+.chat-voz {
+	padding: 5px;
+	border-top: 1px solid black;
+}
+.chat-voz i{
+	padding: 5px;
+}
+.chat-voz input{
+	width: 90%;
+	height: 40px;
+	color: #9E9E9E;
+}
